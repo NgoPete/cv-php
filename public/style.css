@@ -1,0 +1,197 @@
+#root-menu {
+    cursor: pointer;
+    position: relative;
+    display: none;
+}
+
+#root-menu:hover .icon-toggle {
+    color: orange;
+}
+
+#root-menu .menu-title {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#root-menu:hover .menu-title {
+    color: orange;
+}
+
+#root-menu i {
+    text-indent: 20px;
+}
+
+#sub-menu {
+    position: absolute;
+    width: 200px;
+    min-height: 50px;
+    list-style: none;
+    display: none;
+    z-index: 10;
+    padding-left: 0;
+    margin-top: 10px;
+    transform: translateX(-40px);
+}
+
+#sub-menu>li {
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #ada4a4;
+    text-indent: 10px;
+}
+
+#sub-menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#sub-menu li:hover a {
+    color: orange;
+}
+
+#root-menu:hover #sub-menu {
+    display: block;
+}
+
+.contact-icon {
+    transform: translateY(-3px);
+}
+
+ul.navbar-nav li.nav-item {
+    padding-right: 30px;
+}
+
+.cate-icon img {
+    max-width: 90%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cate-icon:hover img {
+    transform: rotate(45deg);
+}
+
+.cate-title {
+    border-bottom: 1px solid red;
+}
+
+.cate-title a {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    transform: translateX(0px);
+}
+
+.cate-title a:hover {
+    color: yellow !important;
+}
+
+.cate-item {
+    max-width: 160px;
+    height: auto;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 7px;
+    padding: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+@media (min-width: 576px) {
+    .cate-item {
+        max-width: 200px;
+    }
+}
+
+.carousel-inner .carousel-item img {
+    width: 680px;
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item img {
+        max-width: 1180px;
+        height: 400px;
+    }
+    #root-menu {
+        display: block;
+    }
+    #root-menu .menu-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #sub-menu {
+        width: 250px;
+        transform: translateX(-55px);
+    }
+}
+
+.cate-item:hover {
+    border: 1px solid orangered;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.products-area {
+    justify-content: space-around;
+}
+
+.laptop {
+    border-bottom: 1px solid #2dcddf;
+}
+
+.laptop a {
+    background: #2dcddf;
+}
+
+.cate-item img {
+    transition: all 0.25s ease-in-out;
+}
+
+.cate-item:hover img {
+    transform: translateY(-5px);
+}
+
+
+/* chi tiết sản phẩm */
+
+.thumb {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-to-cart {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #00b894;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-to-cart:hover {
+    background: #2dcddf;
+}
+
+
+/* trang sp smart phone */
+
+ul.list-item li {
+    max-width: 250px;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+}
+
+ul.list-item li:hover {
+    border: 1px solid green !important;
+}
+
+ul.list-item li:hover img {
+    transform: translateY(-5px);
+    transition: 0.25s all ease-in-out;
+}

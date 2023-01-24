@@ -1,0 +1,74 @@
+.outline-red {
+    border: 1px solid red;
+}
+
+.text-grey {
+    color: rgb(138, 134, 134);
+    transition: all 0.25s ease-in-out;
+}
+
+.text-gray {
+    color: rgb(138, 134, 134);
+}
+
+.text-grey:hover {
+    color: white;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin-right: 10px;
+    border: 1px solid;
+}
+
+.translate-y {
+    transform: translateY(-4px);
+}
+
+.text-orange:hover a {
+    color: orange;
+}
+
+.footer-link {
+    display: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .fs-sm {
+        font-size: 12px;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .border-right-warning {
+        border-left: 2px solid yellow;
+    }
+    .fs-md {
+        font-size: 16px;
+    }
+    .footer-link {
+        display: block;
+    }
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
